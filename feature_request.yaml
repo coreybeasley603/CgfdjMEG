@@ -9,7 +9,6 @@ body:
       label: "⚠️ Please verify that this feature request has NOT been suggested before."
       description: "Search in the issues sections by clicking [HERE](https://github.com/louislam/uptime-kuma/issues?q=)"
       options:
-        - label: "I checked and didn't find similar feature request"
           required: true
   - type: dropdown
     id: feature-area
@@ -44,7 +43,6 @@ body:
   - type: textarea
     id: alternatives
     validations:
-      required: false
     attributes:
       label: "❓ Alternatives"
       description: "A clear and concise description of any alternative solutions or features you've considered."
